@@ -11,10 +11,13 @@ In this example we show energy consumption data from a pharmaceutical equipment 
 ![MatrixProfile](Images/1.png)
 
 ## General Conclusion
-![MatrixProfile](Images/1.png)
+
 
 - By correcting the matrix profile with a Domain specific Annotation Vector based on the active power consumption peaks measure, we were able to discover the true motifs.
 - After fine tuning the parameters of motifs.motifs, we were able to differentiate different motifs existing in the data.
 - Visually we have one false positive : the red motif in the right, which we refer to noise. We can improve the result by adding a noise filter on the found motifs.
+
+![MatrixProfile](Images/2.png)
  
+
 For Detail visit: https://medium.com/@mohcine.madkour/regime-detection-in-energy-data-using-matrix-profile-6d22862a1fd4
